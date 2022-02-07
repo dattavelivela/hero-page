@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blue;
+  margin-left: 10px;
+}
+
+.navtag {
+  background-color: blue;
+  padding: 1em;
+}
+.brand {
+  color: white;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 0.2em;
+}
+
+.hero {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.link > li {
+  list-style: none;
+  margin: 0;
+}
+
+.link > li > a {
+  text-decoration: none;
+  color: white;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  display: none;
+}
+
+.heading {
+  font-family: "Rubik", sans-serif;
+  font-size: 2.4em;
+  width: 80%;
+  font-weight: bold;
+  padding: 5em 0 0.4em 0.4em;
+  color: whitesmoke;
+  text-align: left;
+  letter-spacing: 2%;
+  line-height: 48px;
+}
+.subheading {
+  font-family: "karla", sans-serif;
+  font-size: 1em;
+  font-weight: medium;
+  padding: 0.8em 0 0.6em 0.6em;
+  color: whitesmoke;
+  text-align: left;
+}
+
+.illustration {
+  width: 75%;
+  height: 75%;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+  }
+  .left {
+    width: 80%;
+    margin-left: 3.8em;
+  }
+  .right {
+    width: 80%;
+    height: 80%;
+    margin-top: 5em;
+  }
+  .navtag {
+    background-color: blue;
+    margin-top: 2em;
+  }
+  .brand {
+    color: white;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 0 0 0 3.8em;
+    display: inline-block;
+  }
+  .navbar {
+    display: inline-block;
+  }
+  nav {
+    display: inline-block;
+    position: relative;
+    left: 600px;
+  }
+  .heading {
+    font-family: "Rubik", sans-serif;
+    font-size: 3.15em;
+    width: 59.9%;
+    font-weight: bold;
+    padding: 3em 0 0.4em 0;
+    color: whitesmoke;
+    text-align: left;
+    letter-spacing: 2%;
+    line-height: 56px;
+  }
+
+  .subheading {
+    font-family: "karla", sans-serif;
+    font-size: 0.95em;
+    width: 90%;
+    font-weight: medium;
+    padding: 0.8em 0 0.6em 0em;
+    color: whitesmoke;
+    text-align: left;
+  }
+  .right > img {
+    display: inline-block;
+    margin-left: 70px;
+  }
+  .link > li {
+    list-style: none;
+    margin: 0;
+    width: 8.2em;
+    display: inline-block;
+    font-size: 0.815em;
+    padding: 0 0 0 3.8em;
+    color: white;
+    text-align: center;
+  }
+
+  .link > li > a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+  }
+}
